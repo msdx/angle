@@ -17,7 +17,7 @@ public abstract class AngleTexture {
 	public int mHWTextureID = -1;
 	public int mWidth = 0;
 	public int mHeight = 0;
-	private AngleTextureEngine mTextureEngine;
+	protected AngleTextureEngine mTextureEngine;
 
 	public AngleTexture(AngleTextureEngine textureEngine) {
 		mTextureEngine = textureEngine;
