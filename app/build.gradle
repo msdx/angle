@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 3
+    compileSdkVersion 8
     buildToolsVersion "23.0.0 rc1"
 
     defaultConfig {
         applicationId "com.android.tutorial"
-        minSdkVersion 3
+        minSdkVersion 8
     }
 
     buildTypes {
@@ -15,4 +15,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
 }
