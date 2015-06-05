@@ -1,12 +1,12 @@
 package com.android.angle;
 
+import android.graphics.Bitmap;
+import android.util.Log;
+
 import java.util.Iterator;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import javax.microedition.khronos.opengles.GL10;
-
-import android.graphics.Bitmap;
-import android.util.Log;
 
 /**
  * Texture engine

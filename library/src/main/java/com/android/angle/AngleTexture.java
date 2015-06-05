@@ -1,10 +1,10 @@
 package com.android.angle;
 
-import javax.microedition.khronos.opengles.GL10;
-
 import android.graphics.Bitmap;
 import android.opengl.GLUtils;
 import android.util.Log;
+
+import javax.microedition.khronos.opengles.GL10;
 
 /**
  * Base texture

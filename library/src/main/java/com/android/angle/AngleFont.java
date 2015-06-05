@@ -1,15 +1,15 @@
 package com.android.angle;
 
+import android.graphics.Bitmap;
+import android.graphics.Typeface;
+import android.os.Environment;
+import android.util.Log;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
-
-import android.graphics.Bitmap;
-import android.graphics.Typeface;
-import android.os.Environment;
-import android.util.Log;
 
 /**
  * Have the texture and parameters to draw characters

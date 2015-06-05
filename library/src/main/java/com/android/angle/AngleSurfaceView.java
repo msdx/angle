@@ -18,17 +18,17 @@
 // http://developer.android.com/guide/samples/ApiDemos/src/com/example/android/apis/graphics/index.html
 package com.android.angle;
 
-import java.nio.CharBuffer;
-import java.util.concurrent.atomic.AtomicBoolean;
-
-import javax.microedition.khronos.opengles.GL10;
-import javax.microedition.khronos.opengles.GL11;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
+import java.nio.CharBuffer;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+import javax.microedition.khronos.opengles.GL10;
+import javax.microedition.khronos.opengles.GL11;
 
 /**
  * Main view for OpenGL ES graphics

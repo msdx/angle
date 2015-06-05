@@ -1,11 +1,11 @@
 package com.android.angle;
 
-import java.io.IOException;
+import android.util.Log;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-import android.util.Log;
+import java.io.IOException;
 
 /**
  * XML Object base class

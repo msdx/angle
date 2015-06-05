@@ -1,11 +1,11 @@
 package com.android.angle;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * Creates a texture using drawable resource

@@ -3,8 +3,6 @@ package com.android.angle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import com.android.angle.AngleObject;
-
 /**
  * Base user interface
  * 
